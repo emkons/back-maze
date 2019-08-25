@@ -2,7 +2,7 @@
   "name": "js13k-setup",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development --inspect --host 0.0.0.0",
     "build": "webpack --mode production",
     "postbuild": "node postbuild.js"
   },
